@@ -1,2 +1,2 @@
-archivo=open('prueba.txt', 'r',encoding='utf-8')#r es de read
+archivo=open('prueba.txt', 'r',encoding='utf-8')#r es de read, a es de append, w es de write, x crea un archivo,t especifica el tipo de archivo (texto o text), b tipo de archivo binario, w+ se utiliza para leer y tambien escribir informacion,r+ para escribir y leer informacion
 print(archivo.read())
